@@ -1,7 +1,7 @@
 # AgriInsightML-Efficient-Crop-Health-Analytics with a Vision Transformer
 
 ## Introduction
-Welcome to the repository for this Vision Transformer (ViT) project, which is aimed at analyzing the health of crops using cellphone [26k+](https://www.kaggle.com/datasets/mosbehbarhoumi/zindidata) images. Developed as part of an initiative to support smallholder farmers, this model processes images to identify various crop conditions. These insights are vital for assessing agricultural insurance claims and providing timely advisories.
+Welcome to the repository for this Vision Transformer (ViT) project, which is aimed at analyzing the health of crops using cellphone [(26k+)](https://www.kaggle.com/datasets/mosbehbarhoumi/zindidata) images. Developed as part of an initiative to support smallholder farmers, this model processes images to identify various crop conditions. These insights are vital for assessing agricultural insurance claims and providing timely advisories.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ To use the Vision Transformer for crop health analysis, follow these steps:
 The `mk-vit.ipynb` notebook guides you through the entire machine learning pipeline, including data preprocessing, model training, evaluation, and making predictions. It uses the Vision Transformer architecture, which has proven effective in various image classification tasks.
 
 ## Repo structure
-- `MK-DL.ipynb` notebooks for data exploration, training models 
+- `mk-vit.ipynb` notebooks for data exploration, training models 
 - `/images/images/`: input data (images are not included due to size constraints and can be downloaded [here](https://www.kaggle.com/datasets/mosbehbarhoumi/zindidata))
 - `/images/`: CSV image file with crop damage data classes
 
